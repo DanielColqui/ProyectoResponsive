@@ -1,10 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* Propiedad: valor */
+    background-color:rgb(224, 129, 129);
+}
+
+header{
+    width: 100%;
+    background-color: rgb(81, 92, 241);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
 .menu{
-    padding: 2%;
+    padding: 1px;
     display: flex;
+    width: 100%;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo-menu img{
+    border-radius: 20px;
+    width: 130px;
+    height: 100px;
+}
+.enl-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-right: 60px;
+    font-size: 22px;
+}
 
+.container{
+    display: flex;
+    max-width: 100vm;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.galeria{
+    justify-content: center;
+}
+
+.h1-galeria{
+    font-family: 'DRagonlord';
+    color:aliceblue;
+    font-size: 40px;
+}
+
+.galeria img{
+    width: 450px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*-----------------formulario---------------*/
+
+
+fieldset{
+    border-radius: 5px;
+    background-color: #d4b39f;
+}
+
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;  
+}
+
+
+/*-----------------footer---------------*/
+
+footer{
+    display: flex;
+    background-color:coral;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 22px;
 }
